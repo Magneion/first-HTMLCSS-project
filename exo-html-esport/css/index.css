@@ -7,6 +7,8 @@ h1, h3 {
 h2 {
 	color:#8d3d72;
 	font-family:'Orbitron', sans-serif;
+	font-size:2em;
+	text-shadow: 2px 2px 7px #ee8db4;
 }
 
 h1, h2 {
@@ -15,13 +17,14 @@ h1, h2 {
 
 h1 {
 	font-size:60px;
+	text-shadow: 5px 5px 10px #5e0c2d;
 }
 
 p {
 	margin: 20px;
 	font-family: 'BenchNine', sans-serif;
 	color:#2d1123;
-	font-size:14px;
+	font-size:1.5em;
 }
 
 footer {
@@ -49,4 +52,18 @@ body {
 
 th {
 	font-weight:bold;
+}
+
+.portrait {
+	width:200px;
+}
+
+header {
+	background-image:url(../img/uolbanniere.jpg);
+	background-repeat: no-repeat;
+	background-position:top;
+	background-size: 1200px;
+	padding: 40px 0px 80px 0px;
+	margin: 0px 50px 0px 50px;
+	border-radius: 20px;
 }
