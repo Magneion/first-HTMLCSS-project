@@ -73,7 +73,7 @@ th {
 header {
 	display: flex;
 	flex-direction: column;
-	background-color: navajowhite;
+	/*background-color: navajowhite;*/
 	align-items:center;
 	justify-content: center;
 }
@@ -121,10 +121,13 @@ picture img {
 	display: flex;
 	flex-direction: row;
 	margin: 0 1em 0 1em;
+	background-color: navajowhite;
+	align-items: center;
 }
 
 .kdaelements {
-	justify-content: space-between;
 	flex: 1 1 auto;
-    width: 30% ; height: 30px;
+    width: 33%; height: 30px;
+    background-color: darkgray;
+
 }
