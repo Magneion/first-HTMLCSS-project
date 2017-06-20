@@ -118,16 +118,16 @@ picture img {
 }
 
 .kda {
-	display: flex;
-	flex-direction: row;
-	margin: 0 1em 0 1em;
-	background-color: navajowhite;
-	align-items: center;
+	margin: auto;
+	/*background-color: navajowhite;*/
 }
 
 .kdaelements {
-	flex: 1 1 auto;
     width: 33%; height: 30px;
-    background-color: darkgray;
+    /*background-color: darkgray;*/
 
+}
+
+table {
+	width:90%;
 }
