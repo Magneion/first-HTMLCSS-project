@@ -2,25 +2,38 @@
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<link href="./css/index.css" type="text/css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=BenchNine|Orbitron" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=BenchNine" rel="stylesheet"> 
 	<title>Unicorns of Love : Accueil</title>
 </head>
 <body>
 	<header>
+		<picture>
+			<source srcset="img/uolbannierelarge.jpg" media="(min-width: 1280px)">
+    		<source srcset="img/uolbannieremedium.jpg" media="(min-width: 1024px) and (max-width: 1280px)">
+    		<source srcset="img/uolbannieresmall.jpg" media="(min-width: 740px) and (max-width: 1024px)">
+    		<source srcset="img/uolbannieretiny.jpg" media="(max-width: 740px)">
+    		<img src="img/uolbanniere.jpg" alt="Bannière des Unicorns of Love">
+
+		</picture>
+		<div class="titre">
 		<h1>Les Licornes de l'Amour</h1> 
 		<h2>De l'amour plein dans la Ligue !</h2>
+		</div>
 	</header>
-	<div>
+	<div class="bio">
 		<h3>Bio</h3>
 		<p>La Ligue des Légendes avait bien besoin d'une grande licorne rose pour changer de la morosité ! Les voilà, les Unicorns of Love, une équipe qu'on ne pensait pas voir évoluer plus d'une saison, et qui en 2017 continue de nous étonner.</p>
 		<p>Originaires d'un peu partout en Europe centrale, ces joueurs et joueuses aux choix de champions parfois étonnants ne manqueront pas de mettre du piment dans les LCS d'Europe West.</p>
 		<p>Pour plus d'infos, vous pouvez visiter leur <a href="http://www.unicornsoflove.com" target="_blank">site officiel</a>, ou les suivre sur <a href="https://twitter.com/unicornsoflove?lang=fr" target="_blank">twitter</a>. En attendant, on vous a concocté un <a href="./videos.html"> best of </a> de leurs derniers moves de folie !</p> <!-- vers une page où quelques vidéos youtube trainent-->
 		</div>
-		<div>
+		<div class="listing">
 			<h3>Les joueurs titulaires</h3>
 			<div>
-				<ul>
+				<ul class="lineup">
 					<li><p><a href="./vizicsacsi.html"> Vizicsacsi </a></p>
 						<img src="./img/vizicsacsi.png" alt="portrait d'un homme brun aux cheveux courts" class="portrait">
 						<p>Top - Tamás Kiss</p>
@@ -46,10 +59,10 @@
 				</ul>
 			</div>
 		</div>
-		<div>
+		<div class="listing">
 			<h3>Les joueurs remplaçants</h3>
 			<div>
-				<ul>
+				<ul class="lineup">
 					<li><p>Uby</p>
 						<p>Support - Aleksandar Iliev Galabov</p>
 					</li>
@@ -59,10 +72,10 @@
 				</ul>
 			</div>
 		</div>
-		<div>
+		<div class="listing">
 			<h3>Le staff</h3>
 			<div>
-				<ul>
+				<ul class="lineup">
 					<li><p>UoLdad</p>
 						<p>CEO - Jos Mallant</p>
 					</li>
